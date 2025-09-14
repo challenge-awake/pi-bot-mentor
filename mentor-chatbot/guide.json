@@ -1,0 +1,39 @@
+{
+  "title": "De Zéro à App Pi",
+  "author": "challenge-awake",
+  "version": "1.1",
+  "sections": [
+    {
+      "id": "github-setup",
+      "title": "1. Créer un compte GitHub",
+      "steps": [
+        {
+          "id": "create-account",
+          "desc": "Créer un compte sur github.com",
+          "command": "start https://github.com"
+        },
+        {
+          "id": "install-git",
+          "desc": "Installer Git sur Windows",
+          "command": "winget install Git.Git"
+        }
+      ]
+    },
+    {
+      "id": "vscode-setup",
+      "title": "2. Installer Visual Studio Code",
+      "steps": [
+        {
+          "id": "download-vscode",
+          "desc": "Télécharger VS Code",
+          "command": "start https://code.visualstudio.com"
+        },
+        {
+          "id": "install-python",
+          "desc": "Installer l'extension Python",
+          "command": "Extensions: Install Extension → Python"
+        }
+      ]
+    }
+  ]
+}

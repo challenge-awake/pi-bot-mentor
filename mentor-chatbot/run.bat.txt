@@ -1,0 +1,5 @@
+@echo off
+cd /d "%~dp0"
+echo Lance le Pi Bot Mentor...
+chainlit run app.py -w
+pause

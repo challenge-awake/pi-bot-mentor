@@ -1,0 +1,59 @@
+{
+  "guideId": "pi-bot-mentor-v1",
+  "title": "De Zéro à App Pi: Le Guide du Pioneer Développeur",
+  "introduction": "Ce n'est pas un tuto technique froid... C'est un mentor qui te guide.",
+  "sections": [
+    {
+      "sectionId": "preparer_terrain",
+      "title": "Partie 1: Préparer son terrain",
+      "steps": [
+        {
+          "stepId": "create-github",
+          "desc": "Créer un compte sur github.com",
+          "command": "start https://github.com"
+        },
+        {
+          "stepId": "install-git",
+          "desc": "Installer Git sur Windows",
+          "command": "winget install Git.Git"
+        }
+      ]
+    },
+    {
+      "sectionId": "developper_app",
+      "title": "Partie 2: Créer une app React",
+      "steps": [
+        {
+          "stepId": "create-vite",
+          "desc": "Créer un projet avec Vite + React",
+          "command": "npm create vite@latest mon-premier-site -- --template react"
+        },
+        {
+          "stepId": "run-dev",
+          "desc": "Lancer le serveur de développement",
+          "command": "cd mon-premier-site && npm run dev"
+        }
+      ]
+    },
+    {
+      "sectionId": "pi-integration",
+      "title": "Partie 3: Intégrer Pi Network",
+      "steps": [
+        {
+          "stepId": "install-sdk",
+          "desc": "Installer le SDK Pi",
+          "command": "npm install @pi-network/sdk"
+        },
+        {
+          "stepId": "auth-user",
+          "desc": "Ajouter le bouton de connexion Pi",
+          "command": "import { Pi } from '@pi-network/sdk'; const pi = new Pi('YOUR_APP_ID');"
+        }
+      ]
+    }
+  ],
+  "metadata": {
+    "author": "@challenge-awake",
+    "lastUpdated": "2025-09-14"
+  }
+}
